@@ -1,0 +1,40 @@
+html, body {
+  margin:0;
+  padding:0;
+  background-color: #333;
+}
+.header, .content, .footer {
+  width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  border-left:3px solid #666;
+  border-right: 3px solid #666;
+}
+.header {
+  height:50vh;
+  background-image: url("../assets/lightshow.jpg");
+  background-position:center;
+  background-attachment:fixed;
+  background-size:100% auto;
+  background-repeat:no-repeat;
+  color:white;
+}
+
+.content{
+  min-height:25vh;
+  background-color: darkmagenta;
+}
+
+.album-box{
+  width:300px;
+  height:300px;
+  border:1px solid #cacaca;
+  border-radius:50px;
+  display: inline-block;
+  background-color: turquoise;
+}
+
+.footer{
+  height:30vh;
+  background-color: whitesmoke;
+}
